@@ -1,10 +1,8 @@
 # Library
 
-Replace this readme with your own information about the project. You can include things like:
-
-- Brief description of the assignment
-- How you approached the task, what tools and techniques you used, and how you planned it
-- If you had more time, what would be next?
+- Build a digital library, using an array of books. The page should have at least one filter, like genre and be able to sort on at least one property like newest to oldest. 
+- I started with HTML and connected the JavaScript and CSS files. Then I added a container and added some CSS to create a nice looking page. Than I started with the JavaScript. I created const and started with a function, but it soon became very complex when I started with the sorting. I searched for help online and added a lot of notes trying to understand the code. 
+- If you had more time, what would be next? I will try to do some more simple exercises first and then come back to this one. 
 
 ## View it live
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
+
