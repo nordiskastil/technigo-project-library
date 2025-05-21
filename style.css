@@ -1,3 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 100vh;
+}
+
 body {
-  background: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0px;
+  background: #DDE5DB;
+}
+
+div {
+  display: block;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+:root {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #A7BEA4;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #A7BEA4;
+  text-decoration: underline;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair", serif;
+}
+
+h1 {
+  font-size: 52px;
+  font-weight: 600px;
+}
+
+/* Add style to buttons */
+button {
+  padding: 0.5rem;
+  font-size: 17px;
+  background-color: #A7BEA4;
+  border-radius: 1rem;
+  border-color: transparent;
+}
+
+img {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.container {
+  text-align: center;
+}
+
+.book-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: left;
+}
+
+.book-card {
+  background-color: rgb(237, 237, 232);
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-size: 21px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#sort {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  background-color: transparent;
+  border: none;
+}
+
+.header-text {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+/* Genre Menu Styling */
+.genre-menu {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.genre-btn {
+  padding: 8px 15px;
+  font-size: 14px;
+  border: none;
+  background: #A7BEA4;
+  color: #30352A;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.genre-btn:hover,
+.genre-btn.active {
+  background: #718067;
+  color: #FCFAF5;
+}
+
+/* Search Bar Styling */
+#search-bar {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-left: 2rem;
 }
